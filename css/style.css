@@ -87,6 +87,88 @@ body {
 
 /* produts */
 #products {
-    background-color: #c7c7c7;
+    background-color: #e7e7e7;
     padding: 50px 0px;
+}
+
+#products #category-products {
+    background-color: white;
+    padding: 15px;
+    border: solid 1px #ccc;
+}
+#products #category-products h1 {
+    color: coral;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#products .product {
+    margin: 20px 0px;
+}
+#products .product .product-title {
+    text-align: center;
+    color:coral;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+#products .product .product-pricing {
+    text-align: center;
+    margin: 0px;
+    padding: 8px;
+    margin-bottom:10px;
+}
+#products .product .product-pricing .sell-price {
+    font-size: 1.6rem;
+}
+#products .product .product-pricing .original-price {
+    color: red;
+    font-size: 1rem;
+}
+
+#products .product .wishlist-icon {
+    font-size: 1.4rem;
+}
+
+#products .product .wishlist-icon p {
+    margin-top: 10px;
+}
+#products .product .wishlist-icon a {
+    color: red;
+}
+
+footer {
+    padding: 40px 10px;
+    color: bisque;
+    background-color: #000000;
+    font-size:16px;
+}
+
+footer h2 {
+    font-size:1.3rem;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #333333;
+}
+
+footer .list-group .list-group-item {
+    color: bisque;
+    background-color: black;
+    border-bottom: dashed 1px #333333;
+}
+
+footer .social-links a {
+    color: bisque;
+    margin: 5px;
+}
+
+footer .email-address a{
+    color: bisque;
+    text-decoration: none;
+}
+
+#copyright-declaration {
+    background-color: #333333;
+    color: bisque;
+    text-align: center;
+    padding: 1rem;
+    border-top: solid 1px coral;
 }
